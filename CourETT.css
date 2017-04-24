@@ -1,0 +1,228 @@
+body {
+  box-sizing: border-box;
+  font-family: 'quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 150%;
+}
+
+h2 {
+  margin-top: 5%;
+}
+
+a {
+
+}
+
+.share {
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: #D7263D;
+  border: 1px solid #D7263D;
+  border-radius: 3px;
+  color: #FFF;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  padding: 0px 50px;
+}
+
+
+.information {
+  border: 2px solid black;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #349BFF;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.information img {
+  float: left;
+  width: 5%;
+  height: 5%;
+}
+
+.information h3 {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  text-transform: italic;
+  margin: auto;
+
+}
+
+.texte {
+  margin-top: 2%;
+}
+
+.head {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-left: 30%;
+  margin-right: 25%;
+  margin-top: 5%;
+  height: 110%;
+}
+
+.fond {
+  background-image: url("Background/FondEngrenage.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Cour {
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.Cour h2 {
+  font-size: 150%;
+  text-align: center;
+}
+
+#fondCour {
+  background-image: url("Background/FondViolet.jpg");
+}
+
+#copyright {
+  color: black;
+  font-weight: 100;
+  text-align: center;
+  font-size: 80%;
+  margin-top: 1%;
+
+}
+
+.liste {
+  font-size: 150%;
+}
+
+.naviguation li {
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 6%;
+  margin-left: 5%;
+  color: white;
+}
+
+.naviguation {
+  position: absolute;
+  width: 100%;
+  background-color: #00061C;
+}
+
+.fleche {
+  max-width: 50%;
+  max-height: 50%;
+  width: 25%;
+  margin-top: 5%;
+  margin-left: 35%;
+  border: 2px solid;
+  margin-bottom: 5%;
+  overflow: hidden;
+}
+
+.fleche li {
+  list-style-type: none;
+  font-size: 140%;
+  padding-top: 2%;
+}
+
+.sousInfo {
+  margin-top: 3%;
+}
+
+#moulin { 
+  margin-left: 30%;
+  width: 30%;        /*Mise en forme de l'image du moulin dans l'historique*/
+  height: 30%;
+}
+
+#lanterne {
+  width: 25%;
+  height: 25%;
+  margin-left: 30%;
+}
+
+h4 {
+  margin-left: 40%;
+  font-size: 110%;
+  font-style: italic;
+  font-family: arial;
+  font-weight: 100;
+  border: 1px solid white;
+  margin-right: 48%;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.type li {
+  font-size: 150%
+}
+
+.type img {
+  width: 30%;
+  height: 30%;
+  margin-left: 50%;
+}
+
+#Denture {
+  width: 15%;
+}
+
+/*Utilisation correspond aux images de l'utilisation courante des engrenages*/
+.utilisation p {
+  font-size: 140%;
+  text-align: left;
+}
+
+.utilisation img {
+  vertical-align: middle;
+
+}
+
+.formules {
+  background: #D7263D;
+  border: 1px solid #D7263D;
+  border-radius: 3px;
+  color: #FFF;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.tiret {
+  display: inline-block;
+}
+
+#reussite {
+  text-align: center;
+}

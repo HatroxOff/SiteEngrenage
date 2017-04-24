@@ -1,0 +1,178 @@
+* {
+  font-family: 'quicksand', sans-serif;
+  box-sizing: border-box;
+ /* border: 1px solid; */
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-image: url("Background/Fondrouge.jpg");
+}
+
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+
+.share {
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background-image: url("Background/Fondrouge.jpg");
+  background: #D7263D;
+  border: 1px solid #D7263D;
+  border-radius: 3px;
+  color: #FFF;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.titre {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'quicksand', sans-serif;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  padding: 0px 50px;
+}
+
+.navigation li {
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 7%;
+  margin-left: 4%;
+  color: white;
+}
+
+.navigation {
+  position: fixed;
+  width: 100%;
+  background-color: #00061C;
+}
+
+#BannerText {
+  color: white;
+  letter-spacing: 5px;
+  padding: 1% 2px;
+  margin: 5%;
+  width: 50%;
+  height: 20%;
+  display: inline-block;
+}
+
+.sommaire li {
+ /* border: 1px solid; */
+  list-style-type: none;
+}
+
+.sommaire {
+  margin-left: 30%;
+  margin-right: 40%;
+  border: 2px solid;
+  margin-top: 5%;
+  font-weight: 500%;
+  font-size: 110%;
+  overflow: scroll;
+}
+
+#idsommaire {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Fond {
+  background: url("Background/FondEngrenage.jpg") no-repeat right top;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.Lancement h2 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.Lancement:hover {
+
+}
+
+.Menu li {
+  font-size: 20px;
+  background:#f5f5f5;
+  color:#555;
+  border-radius:2px;
+  width:100px;
+  border:1px solid #ccc;
+  box-shadow:1px 1px 3px #999;
+  list-style-type: none;
+  margin-left: 9%;
+  margin-bottom: 1%;
+  display: inline;
+}
+
+.Menu {
+  text-align: center;
+  color: white;
+  font-size: 150%;
+
+}
+
+.Description {
+  color: white;
+  margin: 40px auto;
+  width: 60%;
+}
+
+.Description p {
+  padding: 5% 5%;
+  font-size: 120%;
+}
+
+.Description a {
+  color: white;
+  text-transform: uppercase;
+}
+
+.main p {
+  border: 1px solid #FFF;
+  margin-top: 2%;
+}
+
+
+.main {
+  background-image: url("Background/FondViolet.jpg");
+  padding: 40px;
+  margin: 0;
+}
+
+.copyright h4 {
+  text-align: center;
+  font-weight: 300;
+
+}

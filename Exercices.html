@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+	
+  <head>
+  	
+  	<title>Cour engrenage - Exercices</title>
+  	<meta charset="utf-8" />
+  	<link href="ExercicesStyle.css" rel="stylesheet" type="text/css" /> 
+  	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Quicksand:300,700" rel="stylesheet" type="text/css" />
+
+  </head>
+
+  <body>
+  	
+  
+  	<div class="fond" >
+  	<div class="naviguation" >
+  	  <ul>
+        <li>Cour</li>
+        <li>Exercices</li>
+        <li id="engrenage">Engrenages</li>
+        <li>Apprentissage</li>
+        <li>ETT</li>
+  	  </ul>
+  	</div>
+<!--
+    <div class="donnes">
+    <p>Donnés Exercice 1 :</p>
+      <ul>
+        <li>Z1 = 30</li>
+        <li>Z2 = 60</li>
+        <li>Module = 25</li>
+        <li>Type non spécifié</li>
+      </ul>
+    </div>
+
+    <div class="donnes2">
+    <p>Donnés Exercice 2 :</p>
+      <ul>
+        <li>Z1 = 30</li>
+        <li>Z2 = 60</li>
+        <li>Module = 25</li>
+        <li>Type non spécifié</li>
+      </ul>
+    </div>
+    -->
+
+  	<div class="titre">
+  	  <div id="Textbanner">
+  	    <h1>Exercices Engrenage</h1>
+  	    <h2>Verifier vos connaissance avec deux exercices résumant le cour</h2>
+  	  </div>
+  	</div>
+  	</div>
+
+    <p id="Copyright"><img src="Images/Copyright.png" width="1%" height="1%" /> Tous les droits de cette pages appartiennent à Tom Margalejos et Dorian Gayraud</p>
+
+  	<div id="exerciceFond" >
+  	  <div class="exercices" >
+  	    <p> Le cour est finit ? On peut donc commencer les exercices ! </p>
+
+  	    <h2 class="numero">EXERCICE 1</h2>
+
+  	    <p> Deux engrenages dont le type n'est pas spécifié sont liés, la première roue détient 30 dents, la deuxième en détient 60. Le module pour les deux roue est de 25.</p>
+  	    <div class="question">
+  	    <h3>CONSIGNE : </h3>
+  	    <p>1) Calculer le diamètre primitif des deux roues<br/>
+  	    			   2) Calculer le pas des deux roues.<br/>
+  	    			   3) Calculer l'entraxe entre les deux roues<br/>
+  	    			   4) Calculer le rapport de transmission<br/>
+  	    </p>
+  	    <div class="information">
+  	      <p><img src="Images/info.png" />N'hésitez pas à aller voir les formules sur la partie cour !</p>
+  	    </div>
+  	    </div>
+
+        <p>-------------------------------------------------------------------------------------------------------</p>
+
+        <!-- LE menu spoiler déroulant -->
+        <div style="margin:20px; margin-top:5px"><div class="quotetitle"><b>Correction :</b> <input type="button" value="Cliquer" style="width:45px;font-size:10px;margin:0px;padding:0px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = '';        this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Afficher'; }" /></div><div class="quotecontent"><div style="display: none;">
+
+        <div class="premiereQuestion" >
+        <h3>I) Calcul diamètre primitif des deux roues</h3>
+        <p>Première roue : D=m.Z ----> D = 25 * 30 ----> D = 750mm<br/>Deuxième roue : D = m.Z ----> D = 25 * 60 ----> D = 1500mm </p>
+        <p>Donc le diamètre primitif de la première roue vaut : 750 mm et de la deuxième : 1500mm</p>
+        
+        <h3>II) Calcul du pas des deux roues</h3>
+        <p>P = Pi * m ----> P = 3.14 * 25 ----> P = 78.5</p>
+        <p>Ici Pi est une constante et le module est le même pour les deux roues, donc le pas pour les deux roues et de 78.5</p>
+
+        <h3>III) Calcul l'entraxe des deux roues</h3>
+        <p>A = m(Z1 + Z2) / 2 ----> A = 25(30 + 60) / 2 ----> A = 2250 / 2 ----> A = 1125</p>
+        <p>Donc l'entraxe des deux roues est de 1125 mm</p>
+
+        <h3>IV) Calcul rapport de transmission</h3>
+        <p>R = (-1)<sub>n</sub> * Z1 / Z2</p>
+        <p>R = (-1)<sub>2</sub> * 30 / 60</p>
+        <p>R = 1 * 0.5<br/><br/>R = 0.5</p>
+        <p>Donc le rapport de transmission vaut 0.5. (-1) à été mutiplié 2 fois par lui même et on trouve donc un nombre positif, donc le sens de rotation sera le même en sortie du système qu'en entrée</p>
+
+        </div>
+
+        </div></div></div>
+
+        <!-- Fin menu spoiler déroulant -->
+        <p>-------------------------------------------------------------------------------------------------------</p>
+
+  	    <h2 class="numero">EXERCICE 2</h2>
+
+  	    <p>Un train d'engrenage de 6 roues représenté par le shéma donné ci dessous. La diamètre primitif de la roue numéro 6 est de 900. La module de la roue 6 est 10. Roue 1 = 30 dents - Roue 2 = 45 - Roue 3 = 55 - Roue 4 = 65 - Roue 5 = 80 </p>
+
+  	    <div class="question">
+  	    <h3>CONSIGNE : </h3>
+  	    <p>1) Calculer le nombre de dents de la roue 6.<br/>
+  	    			   2) Calculer le rapport de transmition de toutes les roues<br/>
+  	    			   3) Le sens de rotation à l'arrivé sera t'il comme celui à l'entrée ? Ou sera t'il inversé ?<br/>
+                 4) Ce train d'engrenage est-il réducteur ou multiplicateur<br/>
+  	    			   5) Expliquer pourquoi la roue 3 ne mène pas la roue 4<br/>
+
+  	    </p>
+  	    <div class="information">
+  	      <p><img src="Images/info.png" />N'hésitez pas à aller voir les formules sur la partie cour !</p>
+  	    </div>
+
+
+  	  </div>
+
+      <p>---------------------------------------------------------------------------------------------------------------------</p>
+
+      <!-- Début correction avec menu déroulant exercice 2 -->
+       <div style="margin:20px; margin-top:5px"><div class="quotetitle"><b>Correction :</b> <input type="button" value="Cliquer" style="width:45px;font-size:10px;margin:0px;padding:0px;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = '';        this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Afficher'; }" /></div><div class="quotecontent"><div style="display: none;">
+
+       <div class="premiereQuestion">
+       <h3>I) Calcul nombre de dents roue 6</h3>
+       <p>Z = D/m ----> Z = 900/10 ----> Z = 90</p>
+       <p>Donc la roue 6 détient 90 dents</p>
+
+       <h3>II) Calcul rapport de transmission</h3>
+       <p>R = (-1)n * Z1 * Z2 * Z4 * Z5 / Z2 * Z3 * Z5 * Z6</p>
+       <p>R = (-1)<sub>4</sub> * ( 30 * 45 * 65 * 80 ) / ( 45 * 55 * 80 * 90 )</p>
+       <p>R = 1 * 7020000 / 17820000</p>
+       <p>R = 1 * 0.39393939... = 0.39</p>
+       <p>Donc le rapport de transmission vaut 0.39. Ici (-1)n vaut 1 donc le sens de rotation n'est toujours pas inversé</p>
+
+       <h3>III) Sens de rotation</h3>
+       <p>Comme on le sait dèjà, il suffit de remplacer n par le nombre de roues menantes. Si le résultat est positif, alors le sens de rotation ne changera pas, dans le cas contraire, le sens de rotation changera.<br/>Ici, nous avons 4 roues menantes, donc :
+       (-1)<sub>4</sub> = 1 ---> Donc le sens de rotation ne change pas.</p>
+
+       <h3>IV) Multiplicateur ou réducteur ?</h3>
+       <p>R = 0.39. Si R est supérieur à 1, alors le train est multiplicateur, si il est infèrieur à 1 alors le train est réducteur.<br/>Donc ici, le train d'engrenage est réducteur.</p>
+
+       <h3>V) Roue 3 mène Roue 4 ?</h3>
+       <p>Si on observe attentivement le shéma, on peut remarquer que Z3 et Z4 sont réliés par un trait et ne sont pas "collé" comme les autres. Il s'agit d'une liaison directe ! C'est à dire que Z3 et Z4 sont espacés mais reliés car comme on le sait déjà un train d'engrenage doit avoir les engrenages imbriqués les uns aux autres. Il se peut qu'à des moments les engrenages doivent être espacès, on utilise alors ce genre de technique. Donc Z3 ne mène pas Z4, elle sont simplement réliés par une liaison directe.</p>
+       </div>
+
+       <div class="information">
+          <p><img src="Images/info.png" />Z3 et Z4 étant relié, ils tournent tous les deux dans le même sens ! Il faut donc faire gaffe quand on établie R de ne pas compter Z4 comme étant menante, sinon le résultat risque d'être faussé</p>
+        </div>
+
+       </div></div></div>
+
+       <!-- Fin correction avec menu déroulant exercice 2 -->
+       <p>---------------------------------------------------------------------------------------------------------------------</p>
+
+  	</div>
+ 
+  </body>
+
+
+</html>
